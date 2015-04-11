@@ -1,4 +1,4 @@
-# UNRELEASED
+# 1.0.2 (2015-04-12)
 
   * 20a33b6 bugfix: additional require statement removal
 
