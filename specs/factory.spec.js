@@ -22,7 +22,7 @@ var expect = require('expect.js');
 
 describe('The storage layer should provide a factory that is capable', function suite () {
 
-    var db = path.join(process.cwd(), 'bucketdb');
+    var db = path.join(process.cwd(), 'database');
 
     before(storage.destroy);
 
