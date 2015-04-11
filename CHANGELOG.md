@@ -1,4 +1,4 @@
-# UNRELEASED
+# 1.0.4 (2015-04-12)
 
   * 26fca88 specs: test fix
 
