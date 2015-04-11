@@ -1,4 +1,6 @@
-# UNRELEASED
+# 1.0.3 (2015-04-12)
+
+  * 7d5f7e3 feature: setter method for defining the database path in an explicit manner.
 
 # 1.0.2 (2015-04-12)
 
