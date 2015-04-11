@@ -1,3 +1,5 @@
+# UNRELEASED
+
 # 1.0.1 (2015-04-12)
 
   * 4eb8d87 bugfix: removal of the default database path.
