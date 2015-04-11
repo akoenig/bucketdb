@@ -1,4 +1,4 @@
-# BucketDB
+# BucketDB [![Build Status](https://travis-ci.org/akoenig/bucketdb.svg?branch=master)](https://travis-ci.org/akoenig/bucketdb)
 
 Personal convenience wrapper around LevelDB with a minimal CRUD-based API.
 
