@@ -13,7 +13,7 @@
 
 'use strict';
 
-var storage = require('../')();
+var storage = require('../')(require('path').join(process.cwd(), 'database'));
 
 var expect = require('expect.js');
 
