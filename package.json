@@ -1,6 +1,6 @@
 {
   "name": "bucketdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal convenience wrapper around LevelDB with a minimal CRUD-based API.",
   "main": "index.js",
   "scripts": {
