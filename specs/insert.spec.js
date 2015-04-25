@@ -49,4 +49,23 @@ describe('The storage layer should provide an insert method', function suite () 
 
         dao.insert(andre, onSave);
     });
+
+    it('should not overwrite the id if one has been defined', function test (done) {
+        var dao = storage('person');
+
+        var andre = {
+            id: 'abc',
+            name: 'Andre König'
+        };
+
+        function onSave (err, person) {
+            expect(err).to.be(null);
+
+            expect(person.id).to.be(andre.id);
+
+            done();
+        }
+
+        dao.insert(andre, onSave);
+    });
 });

@@ -9,11 +9,6 @@
     "specs": "gulp specs",
     "checkstyle": "gulp checkstyle"
   },
-  "pre-commit": [
-    "lint",
-    "checkstyle",
-    "specs"
-  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:akoenig/bucketdb.git"
@@ -39,7 +34,6 @@
     "gulp-jshint": "^1.10.0",
     "gulp-mocha": "^2.0.1",
     "jshint-stylish": "^1.0.1",
-    "pre-commit": "^1.0.6",
     "run-sequence": "^1.0.2"
   },
   "dependencies": {
