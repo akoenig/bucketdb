@@ -1,4 +1,4 @@
-# UNRELEASED
+# 1.1.0 (2015-04-25)
 
   * 17d6913 feature: support for pre-defined id's
 
