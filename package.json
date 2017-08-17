@@ -1,6 +1,6 @@
 {
   "name": "bucketdb",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Personal convenience wrapper around LevelDB with a minimal CRUD-based API.",
   "main": "index.js",
   "scripts": {
@@ -39,9 +39,9 @@
   "dependencies": {
     "debug": "^2.1.3",
     "jsonquery": "^0.1.7",
-    "level-sublevel": "^6.4.6",
-    "leveldown": "^0.10.4",
-    "levelup": "^0.19.0",
+    "level-sublevel": "^6.6.1",
+    "leveldown": "^1.7.2",
+    "levelup": "^1.3.9",
     "mandatory": "^1.0.0",
     "verror": "^1.6.0"
   }
